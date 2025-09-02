@@ -1,0 +1,643 @@
+natural_language,terminal_command
+List all files in the current directory,ls
+Show me all the files in this directory,ls
+Can you display the files in the current folder?,ls
+Please list everything in this directory,ls
+Show all files in the current directory,ls
+Show the contents of the current directory,ls
+"List all files, including hidden files",ls -a
+List files in the directory including hidden files,ls -a
+"Show all files, including hidden ones",ls -a
+"Display files and directories, including hidden ones",ls -a
+"List everything, including hidden files",ls -a
+List files with detailed information,ls -l
+Show the file details in this directory,ls -l
+List the contents of the directory with more info,ls -l
+Show files with detailed listing,ls -l
+Show all files in the current directory,ls
+Show long format listing of files,ls -l
+Display the manual page for 'ls',man ls
+enter the Documents directory,cd Documents
+change to the Documents section,cd Documents
+enter newDir,cd newDir
+switch into newDir,cd newDir
+go inside newDir folder,cd newDir
+jump to Documents,cd Documents
+go to my documents at /home/user/docs,cd /home/user/docs
+switch to directory /home/user/docs ,cd /home/user/docs
+move into /home/user/docs,cd /home/user/docs
+navigate directly to /home/user/docs,cd /home/user/docs
+go into system logs folder,cd /var/logs
+move to the log directory,cd /var/logs
+enter the logs directory,cd /var/logs
+access the system logs,cd /var/logs
+Change to the Documents directory,cd Documents
+Go to the Documents folder,cd Documents
+Navigate to Documents directory,cd Documents
+Move to the Documents folder,cd ~/Documents
+Switch to the Documents directory,cd ~/Documents
+move up one directory,cd ..
+step up one level,cd ..
+go back one step,cd ..
+navigate one folder up,cd ..
+Change to the parent directory,cd ..
+Go up one level in the directory structure,cd ..
+Navigate to the parent directory,cd ..
+Move to the parent folder,cd ..
+Change to the folder above the current one,cd ..
+go to directory newDir,cd newDir
+navigate to directory hello,cd hello
+change working directory to seema,cd seema
+change working directory to Gfg,cd Gfg
+go to Gfg directory,cd Gfg
+go to this path,cd path
+switch to seema directory,cd seema
+go to this path /home/user/docs,cd /home/user/docs
+navigate to /var/logs,cd /var/logs
+jump to the root directory,cd /
+move to the top-level directory,cd /
+navigate to the system root,cd /
+switch to the base system directory,cd /
+return to my home folder,cd ~
+go back to my home location,cd ~
+move into the user home directory,cd ~
+navigate to the home path,cd ~
+Leave the terminal,exit
+End the terminal session,exit
+Exit from the shell,exit
+Close the command line,exit
+Log out and close the terminal,exit
+Quit the shell,exit
+Terminate the console,exit
+end the current shell session,exit
+Shut down the terminal,exit
+Close the terminal window,exit
+Quit the terminal,exit
+Log out of the terminal,exit
+Terminate the session,exit
+Close the terminal session,exit
+Quit the terminal,exit
+Terminate the process with PID 12345,kill 12345
+Kill the process with PID 12345,kill 12345
+Stop the process with PID 12345,kill 12345
+End the process with PID 12345,kill 12345
+Terminate the process '12345',kill 12345
+kill the process whose pid is 2342,kill 2342
+terminate process 3423,kill 3423
+Create a new directory called 'my_project',mkdir my_project
+Make a directory named 'my_project',mkdir my_project
+Create a folder called 'my_project',mkdir my_project
+Make a folder with the name 'my_project',mkdir my_project
+Create a folder 'my_project',mkdir my_project
+Remove a file named 'file2.txt',rm file2.txt
+Delete the file 'file2.txt',rm file2.txt
+Erase 'file2.txt' from the system,rm file2.txt
+Remove 'file2.txt' from the directory,rm file2.txt
+Delete 'file2.txt' file,rm file2.txt
+Remove a directory named 'old_folder',rmdir old_folder
+Delete the empty folder 'old_folder',rmdir old_folder
+Erase the folder 'old_folder',rmdir old_folder
+Remove the folder named 'old_folder',rmdir old_folder
+Delete the directory 'old_folder',rmdir old_folder
+Remove the file 'file1.txt',rm file1.txt
+Delete the file 'file1.txt' from the system,rm file1.txt
+Remove 'file1.txt' from the directory,rm file1.txt
+Erase 'file1.txt',rm file1.txt
+Delete 'file1.txt' file,rm file1.txt
+Remove the folder 'backup',rmdir backup
+Delete the directory 'backup',rmdir backup
+Remove the folder named 'backup',rmdir backup
+Erase the directory 'backup',rmdir backup
+Remove the 'backup' folder,rmdir backup
+Show all built-in commands,help
+Give me a list of all available commands,help
+Show help for commands,help
+Display a list of shell commands,help
+Tell me about available commands,help
+Get help for using the shell,help
+Display supported commands help,help
+Show command reference help,help
+Show command guide help,help
+Display help topics help,help
+Explain available commands help,help
+Find commands and their usage help,help
+List internal shell commands help,help
+View shell command descriptions help,help
+Get a summary of shell commands help,help
+Show the manual for a command,man <command>
+Display the manual page for 'ls',man ls
+Give me the man page for 'mkdir',man mkdir
+Display the manual for 'mkdir',man mkdir
+Create a new folder named 'project',mkdir project
+Make a directory called 'new_folder',mkdir new_folder
+Create the directory 'test_dir',mkdir test_dir
+Make a new directory called 'test_dir',mkdir test_dir
+Create a folder named 'work',mkdir work
+help,help
+show working path,pwd
+Print hi,echo hi
+Print hello,echo hello
+"Repeat after me: Hello, world!","echo Hello, world!"
+Say hi to everyone,echo Hi everyone!
+Print my name is John,echo My name is John
+Show my username,echo $USER
+print “hi”,echo “hi”
+print “hello all”,echo “hello all”
+print this is project ,echo this is project
+print how are you ,echo how are you?
+print this is new file,echo this is file 
+say this is file,echo this is file
+"print ""folder1""","echo ""folder1"""
+print this is file in a project,echo this is file in a project
+Adjust the timestamp of 'filename' by subtracting 2 hours from it.,"touch -d ""$(date -r filename) - 2 hours"" filename"
+Adjust the timestamp of file $filename by subtracting 2 hours from it,"touch -d ""$(date -r ""$filename"") - 2 hours"" ""$filename"""
+"Change the timestamp of symbolic link ""somesymlink"" to current date/time",touch -h somesymlink
+"Create an empty file 'last.check' in directory pointed by variable ""log_dir"", with specified timestamp.",touch -m 201111301200.00 $log_dir/last.check
+"Create an empty file (or update timestamp of file) specified by variable ""correctFilePathAndName""","touch ""$correctFilePathAndName"""
+Create an empty file with a carriage return character in its name.,touch $'Icon\r'
+"Create an empty index.html, or update its timestamp if it already exists.",touch index.html
+"Ensure all 5 of UEDP0{1..5}_20120821.csv files exist, creating empty files for any missing ones (updates the file's timestamps)",touch -a UEDP0{1..5}_20120821.csv
+"Make sure the file "".bash_profile"" exists in current directory, update its timestamp to current date/time.",touch .bash_profile
+Set the timestamp of B to the same one as A,touch -r A B
+"Set timestamp of B to the timestamp in stat format specified by variable ""old_time""","touch -d""$(date --date=""@$old_time"")"" B"
+Set timestamp of all PHP files in current directory to date specified.,touch -d '30 August 2013' *.php
+"The file ""files_to_find.txt"" contains a list of filenames, create each file or update its timestamp if it exists.",touch `cat files_to_find.txt`
+"Update the timestamp of 'filename', or create an empty file if it doesn't exist.",touch filename
+"Change symbolic link ""$f"" into a file",cp --remove-destination $(readlink $f) $f
+"Copies """"$project_dir""/iTunesArtwork"", to the 'Payload/iTunesArtwork', rewriting files if necessary.","cp -f ""$project_dir""/iTunesArtwork Payload/iTunesArtwork"
+Copies 'src' to 'dest' preserving overwriting the existing files.,cp -n src dest
+Copies all files like 'lib*.so' to '~/usr/gtest/lib/' directory.,cp lib*.so ~/usr/gtest/lib
+"Copies file '/boot/config-`uname -r`' to the  '.config', printing info message and prompting before owerwriting files.",cp -vi /boot/config-`uname -r` .config
+Copies files 'src/prog.js' and 'images/icon.jpg' with fully-defined path to '/tmp/package' directory.,cp --parents src/prog.js images/icon.jpg /tmp/package
+Copies newest file under the current folder to the '/tmp/',cp $(ls -1tr * | tail -1) /tmp/
+Copy all files in the current directory except those containing 'Music' to '/target_directory'.,cp `ls | grep -v Music` /target_directory
+"Copy file ""exist"" from directory ""/file/that"" to a new file named ""file"" in ""/location/for/new""",cp /file/that/exists /location/for/new/file
+"Copy file 'src' to 'dest', except if 'dest' already exists.",cp -n src dest
+"Copy file or folder linked to by ""file"" to ""file""",cp -rf --remove-destination `readlink file` file
+"Copy src_dir recursively to dest_dir, but without overwriting existing files.",cp -nr src_dir dest_dir
+"Copy the 3 specified files to /tmp/package, preserving/creating directory structure of each file as specified on command line.",cp --parents src/prog.js images/icon.jpg /tmp/package
+"Copy the entire directory tree under t1 to t2, do not create a containing t1 directory in t2.",cp -R t1/ t2
+"Create an empty file called ""emptyfile.c""",cp /dev/null emptyfile.c
+Display detailed usage help of the 'cp' (copy) command.,cp --help
+Duplicate directory tree under /mnt/usr/lib to /usr but creating symlinks to files instead of copying them.,cp -rs /mnt/usr/lib /usr/
+"Make a copy of the entire contents of SRCFOLDER called ""DESTFOLDER"", if DESTFOLDER exists, the copy will be placed within it.",cp -R SRCFOLDER DESTFOLDER/
+Make a copy of the entire contents of dir1 in the Pictures directory located in the user's home directory.,cp -r dir1/ ~/Pictures/
+Prints help on 'cp' utility.,cp --help
+"Recursively copies ""$1"" to ""$2"".","cp -R ""$1"" ""$2"""
+"Recursively copies ""$appname.app"", preserving symlinks as symlinks to the 'Payload' directory.","cp -Rp ""$appname.app"" Payload/"
+Recursively copies '../include/gtest' directory to '~/usr/gtest/include/'.,cp -r ../include/gtest ~/usr/gtest/include/
+Recursively copies 'SRCFOLDER' to the 'DESTFOLDER/',cp -R SRCFOLDER DESTFOLDER/
+Recursively copies 'src' to 'dest' preserving overwriting the existing files.,cp -nr src_dir dest_dir
+"Recursively copies /mnt/usr/lib to the '/usr/' directory, creating symbolic links on each file instead of real copying them.",cp -rs /mnt/usr/lib /usr/
+"Recursively copies all files in the current directory but ones that names match pattern ""dirToExclude|targetDir"" to the 'targetDir' directory, printing info message on each operation.","cp -rv `ls -A | grep -vE ""dirToExclude|targetDir""` targetDir"
+Recursively copies all files in the current directory but ones with 'c' in name to the home directory.,"cp -r `ls -A | grep -v ""c""` $HOME/"
+"Recursively copies everything from '/source/path/*' to the '/destination/path/', preserving from overwriting existing files, and printing info message on each operation.",cp -Rvn /source/path/* /destination/path/
+Recursively copies everything under the 'current' folder to the '.hiddendir' folder.,cp * .hiddendir -R
+"Recursively copy everything in /source/path whose name doesn't begin with a period, to /destination/path, without overwriting existing files, and outputting a line for each file copied or skipped.",cp -Rvn /source/path/* /destination/path/
+copy all files which do not have execute permission to another folder,cp `find -perm -111 -type f` /usr/local/bin
+find all regular/normal files which have execute permission in current folder and copy them to another folder,cp `find -perm -111 -type f` /usr/local/bin
+Find all *shp* directories under current directory and move all regular files inside those directories to ../shp_all/,"mv $(find $(find . -name ""*shp*"" -printf ""%h\n"" | uniq) -type f) ../shp_all/"
+"Move ""/usr/bin/openssl"" to directory ""/root/""",mv /usr/bin/openssl /root/
+"Move ""caniwrite"" without clobbering into ""/usr/local/bin""",mv -nv caniwrite /usr/local/bin
+"Move ""file.txt"" to docker container ""$CONTAINER_ID"" in path ""/var/lib/docker/devicemapper/mnt/$CONTAINER_ID/rootfs/root/file.txt""",mv -f file.txt /var/lib/docker/devicemapper/mnt/$CONTAINER_ID/rootfs/root/file.txt
+"Move ""file.txt"" to docker container ""$COUNTAINER_ID"" in path ""/var/lib/docker/aufs/mnt/$CONTAINER_ID/rootfs/root/file.txt""",mv -f file.txt /var/lib/docker/aufs/mnt/$CONTAINER_ID/rootfs/root/file.txt
+"Move ""file1"", ""file2"", ""..."" to ""target"" directory",mv -t target file1 file2 ...
+"Move ""tobecopied/tobeexclude"" to ""tobeexclude""",mv tobecopied/tobeexclude tobeexclude;
+"Move ""tobecopied/tobeexcluded"" to the current directory",mv tobecopied/tobeexcluded .
+"Move all files and directories in the current directory to ""/tmp/blah/""",mv * /tmp/blah/
+"Move all files and directories in the current directory to ""somewhere/""",mv `ls` somewhere/
+"Move all files and directories matching ""*.boo"" in the current directory to ""subdir""",mv `ls *.boo` subdir
+"Move all files and directories not starting with ""l"" in ""/mnt/usbdisk"" to ""/home/user/stuff/.""",mv /mnt/usbdisk/[^l]* /home/user/stuff/.
+"Move all files including hidden files and excluding "".."" in ""/path/subfolder/"" to ""/path/""","mv /source/path/{.[!.],}* /destination/path"
+"Move all files including hidden files in ""/path/subfolder/"" to ""/path/""","mv /path/subfolder/{.,}* /path/"
+"Move all files not matching ""Tux.png"" in ""~/Linux/Old"" to ""~/Linux/New/"" using zsh with ""EXTENDED_GLOB""",mv ~/Linux/Old/^Tux.png ~/Linux/New/
+"Move all hidden files in ""/path/subfolder/"" to ""/path/""",mv /path/subfolder/.* /path/
+"Move all hidden files in ""wordpress"" to the current directory",mv wordpress/.* .
+"Move server.log to 'logs' directory with new name as the current date formatted as ""%Y%m%d%H%M"" and with '.log' extension","mv server.log logs/$(date -d ""today"" +""%Y%m%d%H%M"").log"
+Moves the file that named like file $1 from '/tmp' folder to the folder where $2 file is located.,"mv ""/tmp/`basename $1`"" ""`dirname $2`"""
+"Rename ""Tux.png"" to "".Tux.png""",mv Tux.png .Tux.png
+"Rename ""blah1"" to ""blah1-new""",mv blah1 blah1-new
+"Rename ""blah2"" to ""blah2-new""",mv blah2 blah2-new
+"Rename ""fghfilea"" to ""jklfilea""",mv fghfilea jklfilea
+"Rename ""file0001.txt"" to ""1.txt""",mv file0001.txt 1.txt
+"Rename ""new"" to ""old"" and backup to ""old.old"" if ""old"" exists",mv new old -b -S .old
+"Rename ""new"" to ""old"" and make a backup if ""old"" exists",mv new old -b
+"Rename ""original.filename"" to ""new.original.filename""",mv original.filename new.original.filename
+"Rename ""original.filename"" to ""new.original.filename""","mv {,new.}original.filename"
+"Rename ""svnlog.py"" to ""svnlog""",mv svnlog.py svnlog
+"Rename ""www_new"" to ""www"" even if ""www"" directory exists",mv -T www_new www
+"Rename $file file, preserving only part of name before '-' symbol, and appending '.pkg' suffix to the end",mv $file $(echo $file | rev | cut -f2- -d- | rev).pkg
+"Rename absolute path of symbolic link ""dirln"" to ""dir2""","mv ""$(readlink -f dirln)"" dir2"
+Rename file file.txt.123456 to file.txt,mv file.txt.123456 $(ls file.txt.123456 | rev | cut -c8- | rev)
+Rename uppercase file or folder name $1 to lower case name,mv $1 `echo $1 | tr '[:upper:]' '[:lower:]'`
+"(Linux specific) Display all lines containing ""IP_MROUTE"" in the current kernel's compile-time config file.",cat /boot/config-`uname -r` | grep IP_MROUTE
+(Linux specific) Display current running kernel's compile-time config file.,cat /boot/config-`uname -r`
+"(Linux specific) Search for command ""tail"" in the maps of the process with PID 2671",cat /proc/2671/maps | grep `which tail`
+"Add a cron job to existing list, without removing existing ones, ro tun ""scripty.sh"" at 2:01 am, 3rd day of april (4th month), if that day happens to be a friday (5th day of the week starting with sunday=0).","cat <(crontab -l) <(echo ""1 2 3 4 5 scripty.sh"") | crontab -"
+"Add cron lists from ""file1"" and ""file2"" to list of cron jobs, giving errors for any lines that cannot be parsed by crontab.",cat file1 file2 | crontab
+Calculate the md5 sum of all *.py files in the current directory,cat *.py | md5sum
+"Calculate the md5 sum of the contents of ""$FILES""",cat $FILES | md5sum
+Check if content of all top-level *.txt files in the current directory contain only unique lines,cat *.txt | sort | sort -u -c
+Copies file 'fileName.txt' to each of directories listed in the 'allFolders.txt' list.,cat allFolders.txt | xargs -n 1 cp fileName.txt
+"Copy ""fileName.txt"" to all directories listed in ""allFolders.txt"" - names may not contain spaces.",cat allFolders.txt | xargs -n 1 cp fileName.txt
+"Copy local file ""$1"" to host ""$2"" into host directory ""$3""","cat $1 | ssh $2 ""mkdir $3;cat >> $3/$1"""
+"Count the number of lines in ""/dir/file.txt""",cat /dir/file.txt | wc -l
+"Count the number of lines in ""/etc/fstab""",cat /etc/fstab | wc -l
+"Count the number of lines in ""myfile.txt""",cat myfile.txt | wc -l
+"Count the number of lines in all "".txt"" files",cat *.txt | wc -l
+Counts lines in file 'filename' ignoring empty lines and lines with spaces only.,cat 'filename' | grep '[^ ]' | wc -l
+Counts lines of /dir/file.txt file.,cat /dir/file.txt | wc -l
+Counts lines of /etc/fstab file.,cat /etc/fstab | wc -l
+Counts lines of all *.txt files in a current folder.,cat *.txt | wc -l
+Counts lines of myfile.txt file.,cat myfile.txt | wc -l
+Counts non-empty lines in file fileName.,cat fileName | grep -v ^$ | wc -l
+"Create a symbolic link in directory ""~/newlinks"" for each file listed in ""results2.txt""",cat results2.txt | xargs -I{} ln -s {} ~/newlinks
+Create new crontab set including $job and only jobs from current crontab that don`t contain $command,"cat <(fgrep -i -v ""$command"" <(crontab -l)) <(echo ""$job"") | crontab -"
+"Display ""infile"" as printable characters or backslash escapes",cat infile | od -c
+Display all lines contiaining 'funcname' in system map file matching current kernel.,cat /boot/System.map-`uname -r` | grep funcname
+Display standard input as octal bytes,cat | od -b
+"Display the content of file ""f"" in home directory if it exists and is executable",cat `which ~/f`
+"Display the contents of ""myfile"" located in the current directory.",cat myfile
+"Display the contents of ""text""",cat text
+Extract files from archive 'archive.tar',cat archive.tar | tar x
+"File ""files.txt"" contains a list of files, copy all files listed to host ""remote"", connecting as ssh user ""user"", and copying the files to this user's home directory - this will not work with files/directory names containing spaces.",cat files.txt | xargs scp user@remote:
+Find all *.foo files under current directory and print their contents,cat $(find . -name '*.foo')
+Find all *.foo files under current directory and print their contents,cat `find . -name '*.foo' -print`
+"Find all strings matching pattern ""^${KEY}${DELIMITER}"" in $FILE file and print rest of string after $DELIMITER","cat ""$FILE"" | grep ""^${KEY}${DELIMITER}"" | cut -f2- -d""$DELIMITER"""
+Find strings with 'Features' in /var/run/dmesg.boot' file,cat /var/run/dmesg.boot | grep Features
+"Format ""file.txt"" as space separated columns 28 characters in width","cat file.txt | column -c 28 -s ""\ """
+Format output of 'file' content to columns with wide not less than 80 pixels,cat file | column -c 80
+Get domain names from file '1.txt' and request TXT DNS record for each one,cat 1.txt | xargs dig TXT
+"Infinitely ping every host listed in ""file-of-ips"" with at most 50 processes at once",cat file-of-ips | xargs -n 1 -I ^ -P 50 ping ^
+"List common files in directories ""1"" and ""2""",cat <(ls 1 | sort -u) <(ls 2 | sort -u) | uniq -d
+"Make directories for each line in ""folder_list.txt""",cat folder_list.txt | xargs mkdir
+"Make directories for each unique file path in ""file1""","cat file1 |xargs -I {} dirname ""{}""| sort -u | xargs -I{} mkdir -p ""{}"""
+Move all files listed in $i file to dir.$count directory,cat $i | xargs mv -t dir.$count
+"Numberically sort content of file 'files', using for sorting part of second one of dash separated fields beginning from second letter.","cat files | sort -t- -k2,2 -n"
+"Ping all hosts in file ""ips"" twice",cat ips | xargs -i% ping -c 2 %
+"Ping all hosts in file ""ips"" twice",cat ips | xargs -n1 ping -c 2
+"Pipe content of 'somedata.txt' file to the input of command ""$outfile""","cat somedata.txt | ""$outfile"""
+"Print ""echo ping -c 2"" on each string in file 'ips'",cat ips | xargs -n1 echo ping -c 2
+"Print ""echo ping -c 2"" on each string in file 'ips'",cat ips | xargs echo ping -c 2
+"Print ""new.txt"" with line numbers prepended",cat new.txt  | nl
+"Print 'file' content, formatting output as 29-symbol wide column, regarding space symbol as a word separator",cat file | fold -s -w29
+"Print 'file' file, splitting lines into pieces with no more that 3 words in each one.",cat file | xargs -n3
+Print 'infile' content with line numbers,cat -n infile
+"Print a line of 100 random characters either ""."" or "" """,cat /dev/urandom | tr -dc '. ' | fold -w 100 | head -1
+Print all lines from file 'report.txt' containing any-cased 'error' pattern,cat report.txt | grep -i error
+Print all unique strings in $1.tmp file.,cat $1.tmp | sort -u
+Print command line of process with pid 17709,cat /proc/17709/cmdline | xargs -0 echo
+Print concatenated content of all files ending with '.foo' under the current folder,cat `find . -name '*.foo' -print`
+"Print content of 'a' file, showing all non-printing characters including TAB characters, and displaying $ at the end of each line.",cat -vet a
+"Print content of 'filename' file, showing all non-printing characters and displaying $ at the end of each line.",cat -v -e filename
+Print content of 'whatever' file,cat whatever | egrep 'snozzberries|$'
+Print content of /etc/passwd and /etc/group files,cat /etc/passwd /etc/group
+Print content of all files ending with '*.foo' under the current directory,cat $(find . -name '*.foo')
+"Print continuous lines of 100 random characters either ""."" or "" """,cat /dev/urandom | tr -dc '. ' | fold -w 100
+"Print every two lines in ""file"" on a single line separated by a space",cat file | paste -d' ' - -
+"Print every two lines in ""file"" on a single line separated by a space",cat file | paste -d\ - - -
+"Print file type information of the ""java"" executable",cat `which java` | file -
+Print fourth column of data from text file text.txt where columns separated by one or more whitespaces.,cat text.txt | tr -s ' ' | cut -d ' ' -f4
+Print info about thread number of process with pid 1,cat /proc/1/sched  | head -n 1
+"Print joined strings from 'file', using space symbol as separator.",cat file | xargs
+"Print lines 16225 to 16482 in file ""file""",cat file | head -n 16482 | tail -n 258
+Print lines that only unique ones in 'set1' and 'set2' files,cat <(grep -vxF -f set1 set2) <(grep -vxF -f set2 set1)
+Print number of bytes in $file.,cat $file | wc -c
+"Print only alphanumeric values from ""/dev/urandom""",cat /dev/urandom | tr -dc 'a-zA-Z0-9'
+"Print only first line of 'file' content, formatted as 29-symbol wide column",cat file | fold -w29 | head -1
+"Print only first line of 'file' content, formatted as 29-symbol wide column, regarding space symbol as a word separator",cat file | fold -s -w29 | head -1
+Print only lines from 'file1.txt' that not present in 'file2.txt' and beginning with 'Q',cat file1.txt | grep -Fvf file2.txt | grep '^Q'
+"Print only printable characters from ""/dev/urandom""",cat /dev/urandom | tr -dC '[:graph:]'
+Print only second from the end field from slash-separated string in file 'datafile',cat datafile | rev | cut -d '/' -f 2 | rev
+Print only unique lines in files 'set1' and 'set2',cat set1 set2 | sort -u
+Print only unique lines of 'file_name' file,cat -n file_name | sort -uk2 | sort -nk1 | cut -f2-
+"Print the contents of ""${SPOOL_FILE}"" file to the console and append to ""${LOG_FILE}"" file",cat ${SPOOL_FILE}                   | tee -a ${LOG_FILE}
+"Print the contents of ""Little_Commas.TXT""",cat Little_Commas.TXT
+"Print the contents of ""filename""",cat filename
+"Print the contents of ""my_script.py""",cat my_script.py
+"Print the contents of ""n""",cat n
+"Print the contents of ""numbers.txt""",cat numbers.txt
+"Print the contents of ""xx.sh""",cat xx.sh
+"Print the contents of ""~/.ssh/config""",cat ~/.ssh/config
+"Print the current user's mail file in ""/var/spool/mail""",cat /var/spool/mail/`whoami`
+"Print the file content of command ""f""","cat ""$(which f)"""
+"Print the file content of command ""f""",cat `which f`
+"Print the first 24 alphanumeric characters from ""/dev/urandom"", determining C locale for all categories",cat /dev/urandom | LC_ALL=C tr -dc 'a-zA-Z0-9' | fold -w 24 | head -n 1
+"Print the first 32 hexadecimal characters from ""/dev/urandom""",cat /dev/urandom | tr -cd 'a-f0-9' | head -c 32
+"Print the first 32 hexadecimal characters from ""/dev/urandom"", determining C locale for character handling functions",cat /dev/urandom | env LC_CTYPE=C tr -cd 'a-f0-9' | head -c 32
+"Print the grand total disk usage of all files listed in ""files.txt""",cat files.txt | xargs du -c | tail -1
+"Print the kernel configuration options found in ""/proc/config.gz""",cat /proc/config.gz | gunzip
+Prints only first ten characters of each string of file $file.,cat $file | cut -c 1-10
+Prints total number of lines of all *.php files in a current folder and subfolders.,"cat `find . -name ""*.php""` | wc -l"
+"Read the raw input of ""/dev/input/mice"" as hexadecimal bytes with 3 bytes per line",cat /dev/input/mice | od -t x1 -w3
+Receive input and print it to terminal,cat
+Receive input and print it to terminal preceeding with line number,cat -n
+Receive pattern to search for on the standard input and print only matching part of lines from file 'f.html',cat f.html | grep -o \
+"Recursively find strings in all files under current directory, that matching with comma-separated patterns list in file 'searches-txt'","cat searches.txt| xargs -I {} -d, -n 1 grep  -r {}"
+Remove all but 5 last comma-separated fields from each line in 'data.csv',"cat data.csv | rev | cut -d, -f-5 | rev"
+"Remove all white space from ""infile.txt"" and wrap each line to 80 characters","cat infile.txt | tr -d ""[:space:]"" | fold -80"
+Remove the last 2 tab-separated fields of each line in file pointed to by filename,cat $filename | rev | cut -c 3- | rev
+Replace any sequence of spaces in file 'text.txt' with single space and print 4th space separated field,cat text.txt | tr -s ' ' | cut -d ' ' -f 4
+"Reversibly sorts content of the '${TMP}/${SCRIPT_NAME}.kb' file, comparing human readable numbers in file strings.",cat ${TMP}/${SCRIPT_NAME}.kb|sort -rh;
+Reversibly sorts content of the '${TMP}/${SCRIPT_NAME}.name' file,cat ${TMP}/${SCRIPT_NAME}.name|sort -r;
+"Reversibly sorts content of the '${TMP}/${SCRIPT_NAME}.pid' file, comparing human readable numbers in file strings.",cat ${TMP}/${SCRIPT_NAME}.pid|sort -rh;
+"Search ""inputfile"" for lines starting with ""t:"" and group the results in files with at most 200 lines each","cat inputfile | grep ""^t\:"" | split -l 200"
+Send reverse requests to get domain name for each address in 'my_ips' list,cat my_ips | xargs -i dig -x {} +short
+"Sort and print each unique line in ""myfile.txt""",cat myfile.txt| sort| uniq
+"Split the contents of all "".txt"" excluding the first 1000 lines into files of at most 1000 lines each",cat *.txt | tail -n +1001 | split --lines=1000
+"Ungzip and untar all files matching ""www-backup.tar.*""",cat www-backup.tar.*|gunzip -c |tar xvf -
+"Use ""$BYTES"" amount of RAM for ""$SECONDS"" seconds with no output",cat <(yes | tr \\n x | head -c $BYTES) <(sleep $SECONDS) | grep n
+"Wrap each line in ""file.txt"" to fit in 80 characters",cat file.txt | fold
+"Write every two lines in ""infile"" on a single line separated by a comma","cat infile | paste -sd ',\n'"
+"Write every two lines in ""infile"" on a single line separated by a space",cat infile | paste -sd '  \n'
+get second-to-last comma-separated field of each line in file.txt,"cat file.txt | rev | cut -d ',' -f 2 | rev"
+"lines.txt contains a list of line numbers, one entry per line - output only these lines from text.txt omitting the rest of the file.",cat -n text.txt | join -o2.2 lines.txt -
+"split content of the file inputfile except lines started with ""^t:"" into pieces per 200 lines","cat inputfile | grep ""^t\:"" | split -l 200"
+split content of the files *.txt beginning with 1001st line into pieces per 1000 lines,cat *.txt | tail -n +1001 | split --lines=1000
+Open all files named 'filename' with 'nano' editor in the entire filesystem,find / -name filename -exec nano '{}' \;
+find all files that names are filename and open in nano text editor,find / -name filename -exec nano '{}' \;
+Find all symbolic links containing 'vim' in their names uder '/usr/bin' directory tree,find /usr/bin -name '*vim*' -type l
+Find every vim undo file under current directory,find -type f -iname '*.un~'
+"View history using ""vim""",history | vim -
+"Open ""charm"" executable file in vim",sudo vim `which charm`
+Open all .c files in the current directory tree in the vim editor,"find . -name ""*.c"" -print | vim -"
+open the file <filename> in nano,nano <filename>
+open the file <filename> in vim,vim <filename>
+Find all symbolic links containing 'vim' in their names uder '/usr/bin' directory tree,find /usr/bin -name '*vim*' -type l
+show all running processes,ps -e
+show detailed information about processes,ps -ef
+show processes for the current user,ps -u <username>
+show processes in a tree view,ps -ejH
+show processes with PID and memory usage,"ps -eo pid,pmem,pcpu,cmd"
+sort processes by memory usage,ps aux --sort=-%mem
+sort processes by CPU usage,ps aux --sort=-%cpu
+show processes with parent PID,"ps -eo ppid,pid,cmd"
+display processes with custom columns,"ps -eo pid,ppid,cmd,%mem,%cpu"
+show threads for processes,ps -eLf
+show processes in hierarchical order,ps axjf
+show system summary,top
+sort processes by CPU usage,top
+show processes for <process_name>,top -p $(pgrep <process_name>)
+show <number> processes,top -n <number>
+show processes in a tree view,top -H
+change refresh interval to <seconds>,top -d <seconds>
+show all running processes,top -a
+sort processes by PID,top -o pid
+show detailed information for processes,top -v
+Start 'top' to monitor all processes with the default settings.,top
+Use 'top' to monitor the oldest instance of ProgramName.,"top -p ""$"""
+Display info on most CPU-intensive processes once and exit.,top -n 1
+show system summary,htop
+sort processes by CPU usage,htop
+kill all jobs,kill $(jobs -p)
+kill all active jobs,jobs -p | xargs kill -9
+kill all background jobs,jobs -p | xargs kill
+kill all background processes,kill -INT $(jobs -p)
+kill group leader,kill `jobs -lp`
+Instantly kill all processes whose command is 'myprocess'.,kill -9 \`pgrep myprocess\`
+"Send SIGKILL signal to process ID 16085, killing it instantly.",kill -9 16085
+"Send SIGKILL signal to processes ID 18581, 18582, and 18583, killing them instantly.",kill -9 18581 18582 18583
+Kill all processes which were executed in background by the current shell.,jobs -p | xargs kill -9
+kill a number of background jobs,jobs -p | tail -n [number of jobs] | xargs kill
+Output the string 'yes' continously until killed,yes
+"File 'save_pid.txt' contains a process ID, instantly kill this process with SIGKILL signal.",kill -9 `cat save_pid.txt`
+Kill the processes of user `myuser' that have been working more than 7 days,find /proc -user myuser -maxdepth 1 -type d -mtime +7 -exec basename {} \; | xargs kill -9
+Send SIGTERM signal to first process sent to background by the current shell.,kill %1
+Send SIGTERM signal to last process sent to background by the current shell.,kill $!
+Check if process ID 1 exists (init or systemd) and current user has permission to send it signals.,kill -0 1
+"Send SIGWINCH process to current shell, causing it to update the LINES and COLUMNS variables which describe the size of the screen/window in characters.",kill -s WINCH $$
+Send TERM signal to process with id listed in '/var/run/DataBaseSynchronizerClient.pid' file,kill `cat /var/run/DataBaseSynchronizerClient.pid`
+"Variable PID contains a process ID, check if this process exists - resulting exit status from this command will be zero if it does and current user has permission to send it signals.",kill -0 $PID
+"Send SIGHUP (hangup) signal to nginx master process, causing it to re-read its configuration and restart child processes if necessary.",kill -HUP $( cat /var/run/nginx.pid )
+"Execute ""killall -USR1 dd"" every minute",watch -n 60 killall -USR1 dd
+"Kill all instances of ""dropbox"" owned by the current use","killall -u ""$"" dropbox"
+show memory usage,free -h
+show memory usage with buffers and cache,free -h --total
+show total memory usage,`free -h
+show swap usage,`free -h
+display memory in human-readable format,free -h
+show detailed memory information,free -h -w
+show memory and swap usage summary,free -h -s 1
+Find apparent size of a target directory,du -hs /path/to/directory
+show current logged-in user,whoami
+display the username of the current user,whoami
+"Save the user name of the current user to variable ""whoami""",whoami=$(whoami)
+Run command 'su whoami' on host 'remotehost',"echo ""su whoami"" |ssh remotehost"
+"Print ""hello"" followed by the current user name",echo hello `whoami`
+Lookup information of the current user,finger `whoami`
+"Save the user name of the current user to variable ""me""","me=""$(whoami)"""
+"Recursively change ownership of ""~/.npm"" to the current user",sudo chown -R $(whoami) ~/.npm
+"Recursively change ownership of ""/usr/local/lib"" to the current user",sudo chown -R `whoami` /usr/local/lib
+"Recursively change ""/usr/local"" owner to the current user and group to admin",sudo chown -R $(whoami):admin /usr/local
+recursively change owner of the directory /usr/local/lib to the current user,sudo chown -R `whoami` /usr/local/lib
+"Recursively change ownership of ""/usr/lib/node_modules/"" to the current user",sudo chown -R $(whoami) /usr/lib/node_modules/
+"Print ""I am USER and the program named ls is in LS_PATH"" where ""USER"" is the current user's user name and ""LS_PATH"" is the full path of the command ""ls""",echo I am $(whoami) and the program named ls is in $(which ls).
+"Save the system host name in variable ""HOSTNAME""","HOSTNAME=""`hostname`"""
+"Save the system host name in variable ""HOSTNAME""",HOSTNAME=$(hostname)
+"Set the host name to the contents of ""/etc/hostname""",hostname $(cat /etc/hostname)
+Run 'make -e' with an environment variable 'HOSTNAME' set to the system hostname,HOSTNAME=$(hostname) make -e
+"Save the short system host name to variable ""hostname""",hostname=`hostname -s`
+"Print ""*Checking Partition Permission* Hostname=$(hostname) LastChecked="" followed by the current date",echo -n *Checking Partition Permission* Hostname=$(hostname) LastChecked=$(date)
+Output the system host name and date to the console,echo Hostname=$(hostname) LastChecked=$(date)
+Display hostname.,uname -n
+Print the host name,hostname
+Print TXT record with server`s hostname from nameserver 'server',dig @server hostname.bind ch txt
+Print host name without a newline,echo -n `hostname`
+Print IP addresses of the host name,hostname -i
+show the system's hostname,hostname
+display the hostname of the machine,hostname
+set the system hostname to <name>,sudo hostname <name>
+show the fully qualified domain name,hostname -f
+Run 'chmod 0644' on all files in the current directory tree,find . -type f -exec chmod 0644 {} \;
+Run 'chmod 0755' on all directories in the current directory tree,find . -type d -exec chmod 0755 {} \;
+Change permissions to 644 for all files showing the respective chmod command,find ./ -type f -print0 | xargs -t -0 chmod -v 644
+Find all 777 permission files and use chmod command to set permissions to 644,find / -type f -perm 0777 -print -exec chmod 644 {} \;
+Find all 777 permission directories and use chmod command to set permissions to 755,find . -type d -perm 777 -print -exec chmod 755 {} \;
+"Make ""bar"" executable",chmod +x bar
+"Add group write permission to all files matching ""*"" or ""...*""",chmod g+w * ...*
+"Allow all users to execute ""myscript.sh""",chmod a+x myscript.sh
+"Make ""file.sh"" executable",chmod +x file.sh
+"Set permission of ""file"" to read only for the owner",chmod 600 file
+"Set permissions of command ""node"" to 755",sudo chmod 755 $(which node)
+Fix files to default permissions 644,find . -type f -exec chmod 644 {} \;
+Fix files to default permissions 755,find . -type d -exec chmod 755 {} \;
+"Allow all users to execute '$pathToShell""myShell.sh""'","chmod a+x $pathToShell""myShell.sh"""
+"Change permissions of ""/usr/bin/wget"" to 777",chmod 777 /usr/bin/wget
+change the permissions of all the directories in the current folder,chmod 751 `find ./ -type d -print`
+change file permissions,chmod <permissions> <file>
+make a file executable,chmod +x <file>
+remove execute permissions,chmod -x <file>
+"set read, write, and execute for owner",chmod u+rwx <file>
+"set read and write for owner, read for group and others",chmod 664 <file>
+give execute permission for all users,chmod a+x <file>
+remove write permission for group,chmod g-w <file>
+give read permission to others,chmod o+r <file>
+set exact permissions using numeric mode,chmod 755 <file>
+change permissions recursively for a directory,chmod -R <permissions> <dir>
+run a command as superuser,sudo <command>
+run a command as another user,sudo -u <username> <command>
+execute a command with elevated privileges,sudo <command>
+edit a file with superuser privileges,sudo nano <file>
+install a package with superuser privileges,sudo apt install <package>
+update system packages with superuser privileges,sudo apt update
+shutdown the system,sudo shutdown
+reboot the system,sudo reboot
+change file permissions with superuser privileges,sudo chmod <permissions> <file>
+check superuser permissions for a command,sudo -l
+get the root user access,sudo su
+Mount all filesystems in /etc/fstab,sudo mount -a
+Find all directories under /path/to/Dir and set their permission to 755,sudo find /path/to/Dir -type d -print0 | xargs -0 sudo chmod 755
+Find all files under /path/to/Dir and set their permission to 644,sudo find /path/to/Dir -type f -print0 | xargs -0 sudo chmod 644
+"Dump the character output of 'echo `echo ""Ho ho ho""`'","echo `echo ""Ho ho ho""` | od -c"
+"Dump the character output of ""echo 'hi'""",echo 'hi' | od -c
+"Print 'echo 'hello, world'","echo 'hello, world' | cat"
+Execute `echo' for each file found,find . | xargs -n 1 echo
+"Save 'echo whatever you ""want your"" command to be' in history","history -s 'echo whatever you ""want your"" command to be'"
+"Print ""test=hello world""","echo ""hello world"" | echo test=$(cat)"
+"Compare text ""hello"" and ""goodbye"" line by line",diff <(echo hello) <(echo goodbye)
+"Execute 'echo -e ""\tHello World""' every 2 seconds","watch 'echo -e ""\tHello World""'"
+List files in the current directory tree using echo,find . -exec echo {} ;
+"Print characters in variable ""$a"" that exist in variable ""$b""","echo ""$(comm -12 <(echo ""$a"" | fold -w1 | sort | uniq) <(echo ""$b"" | fold -w1 | sort | uniq) | tr -d '\n')"""
+Lists long format information about file '/bin/echo'.,ls -l /bin/echo
+"Print all files with a '-' after their name if they are regular files, and a '+' otherwise",find / -type f -exec echo {} - ';' -o -exec echo {} + ';'
+"Print the list of all regular files on the system using ""echo""",find / -type f -exec echo {} \;
+"Remove spaces from output of ""echo aa | wc -l""",echo aa | wc -l | tr -d ' '
+"Execute 'echo -e ""\033[31mHello World\033[0m""' every without color support 2 seconds","watch 'echo -e ""\033[31mHello World\033[0m""'"
+"Print ""echo ping -c 2"" on each string in file 'ips'",cat ips | xargs -n1 echo ping -c 2
+Clears terminal screen.,echo `clear`
+"Print ""hello"" followed by the current user name",echo hello `whoami`
+Print 1 to 10 by separating them with colon (':'),echo {1..9}: 10 | tr -d ' '
+Print 3 space separated '%',echo $(yes % | head -n3)
+"Print each character in ""Hello"" as a hexadecimal value","echo -n ""Hello"" | od -A n -t x1"
+Print host name without a newline,echo -n `hostname`
+Clears the terminal screen.,clear
+Clears terminal screen.,echo `clear`
+Clear the in-memory history,history -c
+Clear the terminal's search history,history -c
+Clear the in-memory history and read from the current history file,history -cr
+Append history lines from this session to the history list,history -a
+read all history lines not already read from the history file,history -n
+Read the history file and append the contents to the history list,history -r
+Clear the in-memory history,history -c
+Print command history,history
+Clear the in-memory history and read from the current history file,history -cr
+"Request that the master ssh connection ""officefirewall"" exits",ssh -O exit officefirewall
+"Request that the master ssh connection ""otherHosttunnel"" exits",ssh -O exit otherHosttunnel
+Test if a file named 'file' in the current directory is more than 1 hour old,find file -chour +1 -exit 0 -o -exit 1
+"Connect to ""$USER_AT_HOST"" using connection sharing on ""$SSHSOCKET"" and request the master to exit","ssh -S ""$SSHSOCKET"" -O exit ""$USER_AT_HOST"""
+"Print ""RDBMS exit code : $RC "" to the console and append to ""${LOG_FILE}""","echo "" RDBMS exit code : $RC "" | tee -a ${LOG_FILE}"
+(GNU specific) Display info on most CPU-intensive processes once and exit.,top -n 1
+"Check whether ""/full/path"" is a mount point with no output and using the exit code",df /full/path | grep -q /full/path
+"Close the master SSH control socket ""my-ctrl-socket"" to ""jm@sampledomain.com""",ssh -S my-ctrl-socket -O exit jm@sampledomain.com
+"Variable PID contains a process ID, check if this process exists - resulting exit status from this command will be zero if it does and current user has permission to send it signals.",kill -0 $PID
+"Print file information of command ""passwd""",ls -l `which passwd`
+Find the passwd file under root and two levels down,find / -maxdepth 3 -name passwd
+"Number each line in ""/etc/passwd"" as right-justified zero padded to a width of 9",nl -nrz -w9 /etc/passwd
+"extract ""passwd.tar.gz"" with verbose output",tar -xvzf passwd.tar.gz
+"Silently read a line into variable ""passwd"" with prompt ""Enter your password: ""","read -s -p ""Enter your password: "" passwd"
+find all files in the current directory and sub-directories that were modified after the /etc/passwd file was modified,find -newer /etc/passwd
+Identify files that do not have a listing in the /etc/passwd or /etc/group file,find / -nouser -o -nogroup
+Find files that do not have a listing in the /etc/passwd or /etc/group in the file system,find / -nouser -o -nogroup
+change the password for the current user,passwd
+change the password for a specific user,sudo passwd <username>
+force a user to change their password on next login,sudo passwd -e <username>
+lock a user account,sudo passwd -l <username>
+unlock a user account,sudo passwd -u <username>
+set a password expiration date,sudo passwd -x <days> <username>
+set a minimum password age,sudo passwd -n <days> <username>
+set a password inactivity period,sudo passwd -i <days> <username>
+Send one ping request to local machine.,ping -c 1 127.0.0.1
+"Ping the broadcast address ""10.10.0.255""",ping -b 10.10.0.255
+"Send an audible ping to ""10.100.3.104""",ping -a 10.100.3.104
+"Send a single ping request with a TTL of 1 to ""192.168.1.1""",ping -c 1 -t 1 192.168.1.1
+"Send ping requests to hostname specified by variable ""c"" for 1 second.",ping -w 1 $c
+"Ping all hosts in file ""ips"" twice",`cat ips
+"Send two ping requests to ""www.google.com""",ping -c 2 www.google.com
+"Send ping requests to ""yourhostname.local""",ping yourhostname.local
+Time stamp every ping request to 8.8.8.8 in Unix epoch format,ping -D -n -O -i1 -W1 8.8.8.8
+Prepend date to ping output to google.com,`ping google.com
+"Send at most 3 ping requests to ""8.8.8.8"" with a timeout of 3 seconds on interface ""eth9""",ping 8.8.8.8 -I eth9 -c 3 -w 3
+Ping every address from 192.168.0.1 to 192.168.0.254 with a timeout of 1 second and filter out no responses,`echo $(seq 254)
+Send 5 ping requests to address 12.34.56.78 and print only the last 2 lines of the summary output.,`ping -c 5 -q 12.34.56.78
+"Print ""echo ping -c 2"" on each string in file 'ips'",`cat ips
+"Print the average round trip time of 5 pings to ""google.com""",`ping -q -c 5 google.com
+"Add a date time stamp to every line of output in ""ping google.com""",`ping google.com
+"Infinitely ping every host listed in ""file-of-ips"" with at most 50 processes at once",`cat file-of-ips
+"Send one ping request to host whose name or IP address is specified by variable ""remote_machine"".",ping -c 1 $remote_machine
+"Send 4 ping requests to host ""google.comz"", displaying only the summary info after the last request completed.",ping -c 4 -q google.comz
+"Send one ping request to host whose name or IP address is specified by variable ""ip"", using network interface eth9.",ping ${ip} -I eth9 -c 1
+"Send one ping request to host with local address in the 10.0.0.x range, with last number specified by variable ""i"", waiting 1 second for a reply, and output only lines containing ""from"" to standard output.",`ping -W 1 -c 1 10.0.0.$i
+"Print and save the ping results of 25 requests to ""google.com"" in ""/home/user/myLogFile.log"" containing at most 100000 bytes",`ping -c 25 google.com
+"Send one ping request to host with local address in the 192.168.1.x range, with last number specified by variable ""COUNTER"", and output only lines containing ""ms"" to standard output.",`ping -c 1 192.168.1.$COUNTER
+Set variable PacketLoss to first digit of percentage of packet loss occurring when pinging host specified by TestIP,"`PacketLoss=$(ping ""$TestIP"" -c 2"
+"Split the result of command ""ping -c 25 google.com","tee "" into pieces per 100000 bytes named as ""/home/user/myLogFile.logNNN"""
+"Convert ""1199092913"" to dotted decimal IPv4 address",`ping -c1 1199092913
+"Print the percentage of packets lost of the 5 packets sent to ""$host""",`ping -c 5 -q $host
+"Save the percentage of packets lost of the 5 packets sent to ""$host"" in variable ""packet_loss""",`packet_loss=$(ping -c 5 -q $host
+prevents curl from returning error (23) Failed writing body when grepping for foo,"curl ""url"" | tac | tac | grep -qs foo"
+"download content from ""http://127.0.0.1:8000"" and output to ""index.html""",curl http://127.0.0.1:8000 -o index.html
+"download contents of a website ""https://get.scoop.sh""",curl -L https://get.scoop.sh
+"find md5sum of content from ""www.google.com""",curl -s www.google.com | md5
+Get directory listing of URL $1 and save them to variable 'header' by deleting '\r' characters,"header=""$(curl -sI ""$1"" | tr -d '\r')"""
+"download contents from ""https://www.npmjs.com/install.sh"" and execute",curl https://www.npmjs.com/install.sh | sh
+"find a difference between website content of ""http://tldp.org/LDP/abs/html/"" and ""http://www.redhat.com/mirrors/LDP/LDP/abs/html/""",diff <(curl -s http://tldp.org/LDP/abs/html/) <(curl -s http://www.redhat.com/mirrors/LDP/LDP/abs/html/)
+"download contents from ""https://raw.github.com/creationix/nvm/master/install.sh"" and execute",curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+Find all files/directories under current /export/home/someone directory and upload them to ftp://somehost/tmp/,find /export/home/someone -exec curl -u someone:password -vT {} ftp://somehost/tmp/
+"download a file ""http://download.oracle.com/otn-pub/java/jce/8/jce_policy-8.zip"" using cookies ""oraclelicense=accept-securebackup-cookie""","curl -L -C - -b ""oraclelicense=accept-securebackup-cookie"" -O http://download.oracle.com/otn-pub/java/jce/8/jce_policy-8.zip"
+Download a webpage and display the content,curl http://example.com
+Download a file and save it to a specific location,curl -o filename.txt http://example.com/file.txt
+Download content and display the headers only,curl -I http://example.com
+Follow redirects when downloading a file,curl -L http://example.com/file.txt -o file.txt
+Get the content of a file and show it in the terminal,curl -s http://example.com
+Get the content and output it in verbose mode,curl -v http://example.com
+Download a file and continue if interrupted,curl -C - -O http://example.com/file.zip
+Show only the HTTP status code,"curl -o /dev/null -s -w ""%{http_code}\n"" http://example.com"
+Download a file using a specific user-agent,"curl -A ""Mozilla/5.0"" -O http://example.com/file.txt"
+Send data using POST request,"curl -X POST -d ""param1=value1&param2=value2"" http://example.com"
+Show all network interfaces and their details,ifconfig
+Show all network interfaces with IP addresses,ip a
+Show only the details of the eth0 interface,ifconfig eth0
+Show details of the eth0 interface with ip,ip addr show eth0
+Show only the IPv4 address of eth0,`ifconfig eth0
+Show the IPv4 and IPv6 addresses of all interfaces,ip addr show
+Bring the interface eth0 up,ifconfig eth0 up
+Bring the interface eth0 down,ifconfig eth0 down
+Set the IP address of eth0 to 192.168.1.10,ifconfig eth0 192.168.1.10
+Set the IP address of eth0 to 192.168.1.10 using ip,ip addr add 192.168.1.10/24 dev eth0
+Show the default network interface,ip route show default
+Show the MAC address of eth0,`ifconfig eth0
+"(Linux specific) Find all loadable modules for current kernel, whose name includes ""perf""",find /lib/modules/`uname -r` -regex .*perf.*
+"(Linux specific) Look for any instance of ""HIGHMEM"" in the current kernel's compile-time config file.",grep “HIGHMEM” /boot/config-`uname -r`
+(Linux-specific) Display all lines containing PROBES in the current kernel's compile-time config file.,grep PROBES /boot/config-$(uname -r)
+"(Linux-specific) Look for any instance of ""ds1337"" in the modules.alias file matching current kernel release",grep ds1337 /lib/modules/`uname -r`/modules.alias
+"Add ""execute"" to the permissions of all directories in the home directory tree",find ~ -type d -exec chmod +x {} \;
+Add '.avi' extension to all files/directories with '.mkv' extension under '/volume1/uploads' directory tree,"find /volume1/uploads -name ""*.mkv"" -exec mv \{\} \{\}.avi \;"
+Add group write permission to all files in the current directory,find . -maxdepth 0 -type f -exec chmod g+w {} ';'
+Add read and execute permission to every directory under the current directory,find . -type d -exec chmod +rx {} \;
+Add read permission for 'other' for all files/directories named 'rc.conf' under current directory tree,"find . -name ""rc.conf"" -exec chmod o+r '{}' \;"
+Add the execute and read permission for all and the write permission for the user to the dir_data directory and all of its sub-directories.,"find ~/dir_data -type d -exec chmod a+xr,u+w {} \;"
+"Append "".txt"" to all filenames in the current directory tree",find -type f | xargs -I {} mv {} {}.txt
+Append *.java files from the current directory tree to tar archive `myfile.tar',"find . -type f -name ""*.java"" | xargs tar rvf myfile.tar"
+Append all *.mp3 files modified within the last 180 days to tar archive `music.tar',find . -name -type f '*.mp3' -mtime -180 -print0 | xargs -0 tar rvf music.tar
+Append all PNG and JPG files to tar archive 'images.tar',"find . \( -iname ""*.png"" -o -iname ""*.jpg"" \) -print -exec tar -rf images.tar {} \;"
+"Append all regular files modified in the last 24 hours to the ""$archive.tar"" tar archive","find . -mtime -1 -type f -exec tar rvf ""$archive.tar"" '{}' \;"
+"Append all regular files modified in the last 24 hours to the ""$archive.tar"" tar archive","find . -mtime -1 -type f -print0 | xargs -0 tar rvf ""$archive.tar"""
+Archive all *.xml files under current directory tree to xml.tar excluding the files that match '/workspace/' in their paths,find . -name \*.xml | grep -v /workspace/ | tr '\n' '\0' | xargs -0 tar -cf xml.tar
+Archive all *html files using tar.,"find . -type f -name ""*html"" | xargs tar cvf htmlfiles.tar -"
+"Archive all directories in /path/to/directory/* (only command line arguments, no sub-directories) to files with .tar.gz extension","find /path/to/directory/* -maxdepth 0 -type d -printf ""%P\n"" -exec sudo tar -zcpvf {}.tar.gz {} \;"
+"Archive all directories in /path/to/directory/* (only command line arguments, no sub-directories) to files with .tar.gz extension transforming the full paths to relative paths",find /path/* -maxdepth 0 -type d -exec sudo tar -zcpvf {}.tar.gz {} \;
+Archive all filepattern-*2009* files/directories under data/ into 2009.tar,find data/ -name 'filepattern-*2009*' -exec tar uf 2009.tar '{}' +
+Archive all filepattern-*2009* files/directories under data/ into 2009.tar,find data/ -name filepattern-*2009* -exec tar uf 2009.tar {} ;
+Archive all filepattern-*2009* files/directories under data/ into 2009.tar,find data/ -name filepattern-*2009* -print0 | xargs -0 tar uf 2009.tar
+Archive the entire file system into tarfile.tar.bz2,find / -print0 | xargs -0 tar cjf tarfile.tar.bz2
+Assign permissions 644 to files in the current directory tree,find . -type f -print0 | xargs -0 chmod 644
+Assign permissions 755 to directories in the current directory tree,find . -type d -print0 | xargs -0 chmod 755
+Back up all *.txt files/directories in new files/directories with a .bak extension in their names under /etc directory,"find /etc -name ""*.txt"" | xargs -I {} mv {} {}.bak"
+Back up all *.txt files/directories in new files/directories with a .bak extension in their names under /etc directory,"find /etc -print0 -name ""*.txt"" | xargs -I {} -0 mv {} {}.bak"
+Backup all of the Java files in the current directory tree by copying them and appending the suffix .bk to each,"find . -name ""*.java"" -exec cp {} {}.bk \;"
+"Build an ""svn hotcopy"" command for each subdirectory of /usr/local/svn/repos/","find /usr/local/svn/repos/ -maxdepth 1 -mindepth 1 -type d -printf ""%f\0"" | xargs -0 -I{} echo svnadmin hotcopy /usr/local/svn/repos/\{\} /usr/local/backup/\{\}"
+Calculate and show md5 sums for every files under current directory tree,find . -type f -exec md5sum \{\} \;
+Calculate and show md5 sums for every files under current directory tree,find . | xargs md5sum
+Calculate md5 sum of the md5 sum of all the sorted files under $path,"find ""$path"" -type f -print0 | sort -z | xargs -r0 md5sum | md5sum"
+"Calculate the md5 sum of all "".py"" files in ""/your/dir"" including content and filenames","grep -ar -e . --include=""*.py"" /your/dir | md5sum | cut -c-32"
+"Calculate the md5 sum of all files in ""/your/dir"" including content and filenames and following symbolic links",grep -aR -e . /your/dir | md5sum | cut -c-32
